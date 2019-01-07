@@ -2,12 +2,13 @@
  * @Author: duantao-ds
  * @Date: 2018-08-08 23:47:49
  * @Last Modified by: duantao-ds
- * @Last Modified time: 2018-08-09 17:43:25
+ * @Last Modified time: 2019-01-07 17:50:58
  */
 
 <template>
     <div class="app">
         <h1>{{name}}</h1>
+        <el-button type="primary" icon="el-icon-edit"></el-button>
         <transition name="aa">
             <router-view class="router-view"></router-view>
         </transition>

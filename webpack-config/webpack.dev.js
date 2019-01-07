@@ -2,7 +2,7 @@
  * @Author: duantao-ds
  * @Date: 2018-08-08 23:25:58
  * @Last Modified by: duantao-ds
- * @Last Modified time: 2019-01-07 17:44:25
+ * @Last Modified time: 2019-01-07 17:48:57
  */
 
 const merge = require('webpack-merge');
@@ -20,6 +20,7 @@ module.exports = merge(common, {
             'vue',
             'vue-router',
             'vuex',
+            'element-ui',
             hotMiddlewareScript
         ]
     },
