@@ -1,0 +1,32 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+.router-view {
+    position: absolute;
+}
+
+.aa-enter {
+    opacity: 1;
+    transform: translateX(100%)
+}
+.aa-enter-active {
+    transition: all .3s ease;
+}
+
+.aa-leave-active {
+    transition: all .3s ease;
+}
+.aa-enter-to {
+    transform: translateX(0);
+}
+.aa-leave {
+    transform: translateX(-100%);
+    opacity: 0,
+}
+.aa-leave-to
+{
+    transform: translateX(-100%);
+    opacity: 0;
+}
